@@ -21,7 +21,7 @@ header{
     justify-content: space-between;
     align-items: center;
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .logoyNombre{
@@ -129,7 +129,7 @@ section{
 footer{
     background-color: #222222;
     display: flex;
-    margin-top: 40px;
+    margin-top: 60px;
     border: solid;
     height: 150px;
     padding-left: 15px;
