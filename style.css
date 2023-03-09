@@ -1,0 +1,160 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(237, 236, 210);
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    background-color: #222222;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.logoyNombre{
+    align-items: center;
+    margin-left: 25px;
+}
+
+.tituloLogo{
+    margin-left: 10px;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pizza{
+    color: #39B24A;
+}
+
+.ampersand{
+    color: white;
+}
+
+.front{
+    color: #FC200C;
+}
+
+/*Navegacion en header*/
+
+.secciones{
+    margin-right: 25px;
+    font-weight: 16px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+/*Section*/
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.envioGratis{
+    background-image: url(img/delivery.jpg);
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    margin-right: 7px;
+    color: #FC200C;
+    font-weight: bold;
+    position: relative;
+}
+
+.envioGratis h2{
+    margin-left: 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.colorWhite{
+    color: white;
+}
+
+.podio{
+    background-color: white;
+    width: 491px;
+    height: 350px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.podio h2{
+    text-align: center;
+    margin-top: 30px;
+    color: red;
+}
+
+.podioTop5{
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.podio ol{
+    margin-left: 70px;
+    margin-top: 10px;
+    font-weight: bold;
+    position:absolute;
+}
+
+.podio li{
+    margin-top: 10px;
+}
+
+.imgPodio{
+    position: absolute;
+    left: 310px;
+    top: 120px;
+}
+
+/*footer*/
+
+footer{
+    background-color: #222222;
+    display: flex;
+    margin-top: 40px;
+    border: solid;
+    height: 150px;
+    padding-left: 15px;
+    flex-direction: block;
+    justify-content: space-between;
+    position:relative;
+}
+
+footer p{
+    margin: 10px;
+    color: #F3F3F3;
+    border: solid #222222;
+}
+
+.logoyNombreFinal{
+    margin-right: 25px ;
+}
+
+.logoyNombreFinal img{
+    margin-top: 30px;
+    height: 80px;
+    width: 92;
+}
+
+.logoyNombreFinal span{
+    margin-top: 58px;
+}
+
